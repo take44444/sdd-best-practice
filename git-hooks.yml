@@ -1,0 +1,103 @@
+git_hooks:
+  before_specify:
+    command: git.feature
+    enabled: true
+    optional: false
+    prompt: Execute git.feature?
+    description: Create feature branch before specification
+  before_clarify:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit outstanding changes before clarification?
+    description: Auto-commit before spec clarification
+  before_plan:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit outstanding changes before planning?
+    description: Auto-commit before implementation planning
+  before_tasks:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit outstanding changes before task generation?
+    description: Auto-commit before task generation
+  before_implement:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit outstanding changes before implementation?
+    description: Auto-commit before implementation
+  before_checklist:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit outstanding changes before checklist?
+    description: Auto-commit before checklist generation
+  before_analyze:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit outstanding changes before analysis?
+    description: Auto-commit before analysis
+  before_taskstoissues:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit outstanding changes before issue sync?
+    description: Auto-commit before tasks-to-issues conversion
+  after_constitution:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit constitution changes?
+    description: Auto-commit after constitution update
+  after_specify:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit specification changes?
+    description: Auto-commit after specification
+  after_clarify:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit clarification changes?
+    description: Auto-commit after spec clarification
+  after_plan:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit plan changes?
+    description: Auto-commit after implementation planning
+  after_tasks:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit task changes?
+    description: Auto-commit after task generation
+  after_implement:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit implementation changes?
+    description: Auto-commit after implementation
+  after_checklist:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit checklist changes?
+    description: Auto-commit after checklist generation
+  after_analyze:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit analysis results?
+    description: Auto-commit after analysis
+  after_taskstoissues:
+    command: git.commit
+    enabled: true
+    optional: true
+    prompt: Commit after syncing issues?
+    description: Auto-commit after tasks-to-issues conversion

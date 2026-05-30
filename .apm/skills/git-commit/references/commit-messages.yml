@@ -1,0 +1,37 @@
+# Commit message used by `git commit` during repository initialization
+init_commit_message: "[SDD-Agent] Initial commit"
+
+# Commit message for each command
+commit_messages:
+  before_clarify:
+    message: "[SDD-Agent] Save progress before clarification"
+  before_plan:
+    message: "[SDD-Agent] Save progress before planning"
+  before_tasks:
+    message: "[SDD-Agent] Save progress before task generation"
+  before_implement:
+    message: "[SDD-Agent] Save progress before implementation"
+  before_checklist:
+    message: "[SDD-Agent] Save progress before checklist"
+  before_analyze:
+    message: "[SDD-Agent] Save progress before analysis"
+  before_taskstoissues:
+    message: "[SDD-Agent] Save progress before issue sync"
+  after_constitution:
+    message: "[SDD-Agent] Add project constitution"
+  after_specify:
+    message: "[SDD-Agent] Add specification"
+  after_clarify:
+    message: "[SDD-Agent] Clarify specification"
+  after_plan:
+    message: "[SDD-Agent] Add implementation plan"
+  after_tasks:
+    message: "[SDD-Agent] Add tasks"
+  after_implement:
+    message: "[SDD-Agent] Implementation progress"
+  after_checklist:
+    message: "[SDD-Agent] Add checklist"
+  after_analyze:
+    message: "[SDD-Agent] Add analysis report"
+  after_taskstoissues:
+    message: "[SDD-Agent] Sync tasks to issues"
