@@ -1,6 +1,7 @@
 MIT License
 
 Copyright GitHub, Inc.
+
 Modified by Takeshi Masumoto (c) 2026
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
