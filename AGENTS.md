@@ -59,16 +59,16 @@ app/
 ├── modulename1/                    Module directory for the first OpenAPI specification
 │   ├── modules.py                  Production and development modules that inject dependencies for the service and repository implementations
 │   ├── controller/                 Presentation layer
-|   │   ├── router.py               FastAPI router for the module's endpoints
+│   │   ├── router.py               FastAPI router for the module's endpoints
 │   │   └── dto.py                  DTO for request and response validation defined using Pydantic models
 │   ├── service/                    Business logic
-|   │   ├── iservice.py             Service interface that controller depends on (abstraction for dependency inversion)
-|   │   ├── service.py              Implementation of the service interface
+│   │   ├── iservice.py             Service interface that controller depends on (abstraction for dependency inversion)
+│   │   ├── service.py              Implementation of the service interface
 │   │   └── model.py                Domain models that represent the core business entities (used in the service layer)
 │   ├── repository/                 Data access layer
-|   │   ├── irepository.py          Repository interface that service layer depends on (abstraction for dependency inversion)
-|   │   ├── postgres_repository.py  PostgreSQL implementation of the repository interface (for production)
-|   │   ├── sqlite_repository.py    SQLite implementation of the repository interface (for development and testing)
+│   │   ├── irepository.py          Repository interface that service layer depends on (abstraction for dependency inversion)
+│   │   ├── postgres_repository.py  PostgreSQL implementation of the repository interface (for production)
+│   │   ├── sqlite_repository.py    SQLite implementation of the repository interface (for development and testing)
 │   │   └── dao.py                  DAO defined using SQLAlchemy models
 │   └── tests/
 │       ├── common/                 Common test utilities and fixtures used by integration tests in the `suite/` directory
