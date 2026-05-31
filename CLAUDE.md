@@ -13,10 +13,14 @@
 ### 2. Test-Driven Development (TDD)
 
 - Red-Green-Refactor cycle **MUST** be followed for all new features and meaningful refactors
-- Tests are primary design artifacts and must be written before implementation
-- Test coverage is required for all behavioral changes
+- Tests **MUST** be written before implementation based on the requirements and expected behavior of the feature
 
-### 3. Observability
+### 3. Quality Gates
+
+- All code **MUST** pass linting checks
+- All code **MUST** have at least 90% test coverage, and all tests **MUST** pass
+
+### 4. Observability
 
 - Implement logging for all critical operations and errors
 - Use OpenTelemetry for distributed tracing and monitoring
@@ -31,7 +35,9 @@
 - Pydantic for data validation and settings management
 - SQLAlchemy for ORM and data access
 - PostgreSQL for production database
-- SQLite for development and testing
+- SQLite for development and testing database
+- pytest for testing
+- Ruff for linting
 
 ## Project and Code Guidelines
 
