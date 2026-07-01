@@ -22,6 +22,7 @@ The backend of [Project Name] is developed in another repository. The backend pr
 
 - TypeScript
 - Next.js for the frontend framework
+- shadcn/ui for UI components
 - Tailwind CSS v4 for styling
 - Auth.js for authentication
 - Jest for unit testing
@@ -83,4 +84,4 @@ The backend of [Project Name] is developed in another repository. The backend pr
 
 ## Environment Variables
 
-The environment variables used in the application are defined in the `.env` fiele located in the root directory of the project. You can use the values for development and testing purposes.
+The environment variables used in the application are defined in the `.env` file located in the root directory of the project. You can use the values for development and testing purposes.
