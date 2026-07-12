@@ -33,6 +33,7 @@
 - Prisma for repository and database access
 - PostgreSQL for production database
 - SQLite for development and testing database
+- @nestjs/jwt for authentication
 - @nestjs/testing for testing
 
 ## Project and Code Guidelines
